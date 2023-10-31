@@ -8,6 +8,12 @@ $primary-background: #a5a5a5;
 body {
     margin: 0;
     background-color: $primary-background;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
 }
 
 header {
@@ -43,6 +49,29 @@ header {
         a{
             text-decoration: none;
             color: $secondary-color;
+        }
+    }
+}
+
+footer {
+    background-color: $primary-color;
+    padding: 16px;
+    text-align: center;
+
+    .social-media {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 32ps;
+        
+        a {
+            i {
+                color: rgba(22, 21, 21, 0.664);
+                font-size: 24px;
+            }
+        }
+
+        .info {
+            color: rgba(22, 21, 21, 0.664);
         }
     }
 }
