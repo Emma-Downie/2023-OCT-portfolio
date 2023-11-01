@@ -10,7 +10,7 @@ This is a portfolio website to display some services of the company "Something S
 Header is the component at the top of the website. It contains logo, name, and nav bar.
 Here is the code for the header we heave: 
 
-'''html
+```html
  <header>
         <div class="logo-name">
                    
@@ -31,4 +31,4 @@ Here is the code for the header we heave:
         </nav>
 
     </header>
-''' 
+```
