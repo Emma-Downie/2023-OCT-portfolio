@@ -7,22 +7,22 @@ header {
 
     .logo-name {
         @media screen and (max-width: $medium) {
-        margin-bottom: 48px;
+            margin-bottom: 48px;
         }
-        
+
         img {
             width: 100px;
         }
-        
+
         .name {
             font-size: 32px;
 
-            .code-text {
-                color: #45a7c5;
+            .emma-text {
+                color: #715136;
             }
     
-            .academy-text {
-                color: #1c3c5c;
+            .downie-text {
+                color: #715136;
             }
         }
     }
@@ -32,9 +32,9 @@ header {
         justify-content: space-around;
         font-size: 18px;
 
-        a{
+        a {
             text-decoration: none;
-            color: $secondary-color;
+            color: rgb(21, 21, 255);
         }
     }
 }
@@ -53,9 +53,7 @@ header {
         }
 
         #nav-items {
-            width: 50%
+            width: 50%;
         }
     }
-
-
 }

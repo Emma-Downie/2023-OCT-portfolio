@@ -2,16 +2,14 @@
 @import "../defaults/breakpoints";
 @import "./utils";
 
-
 footer {
     @include background-stuff();
-
 
     .social-media {
         display: flex;
         justify-content: space-around;
-        margin-bottom: 32ps;
-        
+        margin-bottom: 32px;
+
         a {
             i {
                 color: rgba(22, 21, 21, 0.664);
@@ -31,7 +29,6 @@ footer {
             width: 50%;
             margin-left: auto;
             margin-right: auto;
+        }
     }
-}
-
 }

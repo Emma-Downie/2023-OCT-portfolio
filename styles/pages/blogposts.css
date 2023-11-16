@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+header {
+  background-color: #c6a7d9;
+  padding: 16px;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  header .logo-name {
+    margin-bottom: 48px;
+  }
+}
+header .logo-name img {
+  width: 100px;
+}
+header .logo-name .name {
+  font-size: 32px;
+}
+header .logo-name .name .emma-text {
+  color: #715136;
+}
+header .logo-name .name .downie-text {
+  color: #715136;
+}
+header #nav-items {
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+}
+header #nav-items a {
+  text-decoration: none;
+  color: rgb(21, 21, 255);
+}
+
+@media screen and (min-width: 600px) {
+  header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  header .logo-name .name {
+    margin-bottom: 0;
+  }
+  header #nav-items {
+    width: 50%;
+  }
+}
+footer {
+  background-color: #c6a7d9;
+  padding: 16px;
+  text-align: center;
+}
+footer .social-media {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 32px;
+}
+footer .social-media a i {
+  color: rgba(22, 21, 21, 0.664);
+  font-size: 24px;
+}
+footer .social-media .info {
+  color: rgba(22, 21, 21, 0.664);
+}
+
+@media screen and (min-width: 600px) {
+  footer .social-media {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+body {
+  margin: 0;
+  background-color: #a5a5a5;
+  font-family: "Quicksand", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.details {
+  margin: 10px 100px;
+  border: 2px solid #9a57ad; /* Set border properties */
+  padding: 80px; /* Add some padding for better appearance */
+  font-size: 40px; /* Set the desired font size */
+  text-align: center;
+}
+
+.resume-button {
+  margin-top: 40px; /* Adjust the margin-top value as needed */
+}
+
+.resume-button .download-button {
+  font-size: 40px; /* Adjust the font size as needed */
+}
+
+img {
+  max-width: 50%; /* Ensure images don't exceed their container width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.main-image {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  height: 70vh; /* Set a specific height for the container, adjust as needed */
+}
+
+/* Styling for the main image inside the container */
+.main-image img {
+  /* Add specific styling for the main image if needed */
+  border-radius: 10px; /* Example: Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Example: Box shadow */
+  max-width: 50%; /* Ensure the image doesn't exceed its container width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.logo-name {
+  text-align: center; /* Center the content horizontally */
+}
+
+/* Styling for the logo image */
+.logo-name img {
+  border-radius: 50%; /* Make the image circular */
+  max-width: 100%; /* Ensure the image doesn't exceed its container width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+main article {
+  margin: 20px 100px;
+  border: 1px solid rgb(206, 70, 190);
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  background-color: #c6a7d9;
+}
+main article section .blog-image {
+  width: 400px;
+  padding: 20px;
+}/*# sourceMappingURL=blogposts.css.map */
